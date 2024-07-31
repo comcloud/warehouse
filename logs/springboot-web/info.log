@@ -1,0 +1,69 @@
+[2022-04-15 22:09:53,978][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:55] Starting SpringbootdemoApplication using Java 1.8.0_281 on 192.168.10.9 with PID 9521 (/Users/rayss/IdeaProjects/springbootdemo/target/classes started by rayss in /Users/rayss/IdeaProjects/springbootdemo)
+[2022-04-15 22:09:54,023][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:663] No active profile set, falling back to default profiles: default
+[2022-04-15 22:09:54,267][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-04-15 22:09:54,268][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-04-15 22:09:59,758][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[2022-04-15 22:09:59,783][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-04-15 22:09:59,784][restartedMain][INFO][org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+[2022-04-15 22:09:59,785][restartedMain][INFO][org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2022-04-15 22:10:00,034][restartedMain][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+[2022-04-15 22:10:00,035][restartedMain][INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 5763 ms
+[2022-04-15 22:10:09,741][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[2022-04-15 22:10:09,920][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[2022-04-15 22:10:09,972][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-04-15 22:10:10,052][restartedMain][INFO][com.cloud.springbootdemo.config.CustomSpringApplication:28] 容器刷新完成，context: , args : org.springframework.boot.DefaultApplicationArguments@76b56733
+[2022-04-15 22:10:10,054][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:61] Started SpringbootdemoApplication in 16.855 seconds (JVM running for 18.36)
+[2022-04-15 22:10:10,060][restartedMain][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state LivenessState changed to CORRECT
+[2022-04-15 22:10:10,108][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:42] ApplicationRunner接口起作用
+[2022-04-15 22:10:10,109][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:47] CommandLineRunner接口起作用
+[2022-04-15 22:10:10,117][restartedMain][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-15 22:11:56,652][http-nio-8080-exec-1][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-04-15 22:11:56,653][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+[2022-04-15 22:11:56,669][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 16 ms
+[2022-04-15 22:14:19,970][SpringContextShutdownHook][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2022-04-15 22:14:26,226][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:55] Starting SpringbootdemoApplication using Java 1.8.0_281 on 192.168.10.9 with PID 9584 (/Users/rayss/IdeaProjects/springbootdemo/target/classes started by rayss in /Users/rayss/IdeaProjects/springbootdemo)
+[2022-04-15 22:14:26,249][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:663] No active profile set, falling back to default profiles: default
+[2022-04-15 22:14:26,470][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-04-15 22:14:26,471][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-04-15 22:14:31,196][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[2022-04-15 22:14:31,221][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-04-15 22:14:31,222][restartedMain][INFO][org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+[2022-04-15 22:14:31,222][restartedMain][INFO][org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2022-04-15 22:14:31,458][restartedMain][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+[2022-04-15 22:14:31,459][restartedMain][INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 4984 ms
+[2022-04-15 22:14:35,459][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[2022-04-15 22:14:35,625][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[2022-04-15 22:14:35,671][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-04-15 22:14:35,748][restartedMain][INFO][com.cloud.springbootdemo.config.CustomSpringApplication:28] 容器刷新完成，context: , args : org.springframework.boot.DefaultApplicationArguments@26f40fdd
+[2022-04-15 22:14:35,750][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:61] Started SpringbootdemoApplication in 10.145 seconds (JVM running for 11.418)
+[2022-04-15 22:14:35,756][restartedMain][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state LivenessState changed to CORRECT
+[2022-04-15 22:14:35,801][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:42] ApplicationRunner接口起作用
+[2022-04-15 22:14:35,802][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:47] CommandLineRunner接口起作用
+[2022-04-15 22:14:35,809][restartedMain][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-15 22:14:47,210][http-nio-8080-exec-2][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-04-15 22:14:47,211][http-nio-8080-exec-2][INFO][org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+[2022-04-15 22:14:47,226][http-nio-8080-exec-2][INFO][org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 15 ms
+[2022-04-15 22:42:37,292][SpringContextShutdownHook][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2022-04-15 22:42:44,167][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:55] Starting SpringbootdemoApplication using Java 1.8.0_281 on 192.168.10.9 with PID 9833 (/Users/rayss/IdeaProjects/springbootdemo/target/classes started by rayss in /Users/rayss/IdeaProjects/springbootdemo)
+[2022-04-15 22:42:44,194][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:663] No active profile set, falling back to default profiles: default
+[2022-04-15 22:42:44,473][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-04-15 22:42:44,475][restartedMain][INFO][org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-04-15 22:42:49,544][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+[2022-04-15 22:42:49,569][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+[2022-04-15 22:42:49,570][restartedMain][INFO][org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+[2022-04-15 22:42:49,571][restartedMain][INFO][org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2022-04-15 22:42:49,810][restartedMain][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+[2022-04-15 22:42:49,811][restartedMain][INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 5333 ms
+[2022-04-15 22:42:53,928][restartedMain][INFO][org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+[2022-04-15 22:42:54,100][restartedMain][INFO][org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+[2022-04-15 22:42:54,146][restartedMain][INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-04-15 22:42:54,222][restartedMain][INFO][com.cloud.springbootdemo.config.CustomSpringApplication:28] 容器刷新完成，context: , args : org.springframework.boot.DefaultApplicationArguments@79ab6178
+[2022-04-15 22:42:54,224][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:61] Started SpringbootdemoApplication in 10.751 seconds (JVM running for 12.184)
+[2022-04-15 22:42:54,230][restartedMain][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state LivenessState changed to CORRECT
+[2022-04-15 22:42:54,277][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:42] ApplicationRunner接口起作用
+[2022-04-15 22:42:54,278][restartedMain][INFO][com.cloud.springbootdemo.SpringbootdemoApplication:47] CommandLineRunner接口起作用
+[2022-04-15 22:42:54,285][restartedMain][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2022-04-15 22:43:01,067][http-nio-8080-exec-1][INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-04-15 22:43:01,068][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+[2022-04-15 22:43:01,083][http-nio-8080-exec-1][INFO][org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 15 ms
+[2022-04-15 22:44:21,896][SpringContextShutdownHook][INFO][org.springframework.boot.availability.ApplicationAvailabilityBean:75] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC

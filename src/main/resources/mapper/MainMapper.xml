@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.springbootdemo.mapper.MainMapper">
+    <update id="updateUnitPriceByNameAndUnit">
+        update product
+        set unit_price = #{productBO.unitPrice}
+        where name=#{productBO.name} and unit=#{productBO.unit}
+    </update>
+
+    <select id="queryProductByNameAndUnit" resultType="com.cloud.springbootdemo.bean.db.ProductBO">
+        select *
+        from product
+        where name in
+        <foreach collection="names" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+        and unit in
+        <foreach collection="units" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </select>
+</mapper>

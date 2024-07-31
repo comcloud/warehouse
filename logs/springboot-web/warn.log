@@ -1,0 +1,11 @@
+[2022-04-07 21:58:08,397][http-nio-8080-exec-1][WARN][org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver:207] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2022-04-07 21:59:07,455][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,455][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,456][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,456][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,456][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,457][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,457][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,457][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,458][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
+[2022-04-07 21:59:07,458][http-nio-8080-exec-1][WARN][com.cloud.springbootdemo.controller.MainController:41] info message!
